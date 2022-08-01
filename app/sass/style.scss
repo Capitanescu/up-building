@@ -1,5 +1,8 @@
-$color: yellow;
+@forward "abstracts/functions";
+@forward "abstracts/mixins";
+@forward "abstracts/variables";
 
-body {
-  background-color: $color;
-}
+@forward "base/animations";
+@forward "base/reset";
+@forward "base/typography";
+@forward "base/utilities";

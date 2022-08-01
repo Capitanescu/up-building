@@ -1,3 +1,6 @@
+// **********Colors**********
+
+// Light Color Palette (Custom Properties)
 html {
   --color-primary: #002154;
   --color-primary-m: rgba(0, 40, 99, 0.703);
@@ -11,7 +14,8 @@ html {
   --color-black: #000;
 }
 
-html[data-theme=dark] {
+// Dark Color Palette (Custom Properties)
+html[data-theme="dark"] {
   --color-primary: rgb(36, 38, 43);
   --color-primary-m: rgba(36, 38, 43, 0.65);
   --color-secondary: rgb(124, 185, 8);
@@ -23,5 +27,3 @@ html[data-theme=dark] {
   --color-quinary: white;
   --color-quinary-m: rgba(255, 255, 255, 0.5);
 }
-
-/*# sourceMappingURL=style.css.map */
